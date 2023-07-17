@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+matplotlib
+sklearn
+xgboost
+plotly
+pickle
+sklearn
+PIL
+math
