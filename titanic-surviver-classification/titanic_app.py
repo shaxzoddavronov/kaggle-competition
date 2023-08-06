@@ -7,7 +7,7 @@ import base64
 import plotly.figure_factory as ff
 import scipy
 
-st.image('Titanic.png',width=500)
+st.image('titanic-surviver-classification/Titanic.png',width=500)
 st.title('Titanic Survival Prediction')
 
 st.write("""On April 15, 1912, during her maiden voyage, the widely considered “unsinkable”
