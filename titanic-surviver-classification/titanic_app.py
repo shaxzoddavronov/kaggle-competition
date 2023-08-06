@@ -46,7 +46,7 @@ show_data('titanic-surviver-classification/sample_filtered_data.csv','Sample fil
 show_data('titanic-surviver-classification/prepared_data.csv','Sample prepared data')
 
 index=st.number_input('Insert index',0,len(data)-1)
-labels=pd.read_csv('labels.csv')
+labels=pd.read_csv('titanic-surviver-classification/labels.csv')
 st.write('Prediction (Survived:1 ,Not survived:0)')
 st.success(labels.loc[index]['Survived'])
 
