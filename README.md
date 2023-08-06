@@ -8,5 +8,5 @@
 #### *Prizes and Career Opportunities:* Some Kaggle competitions offer cash prizes, swag, or job opportunities with sponsoring companies.
 
 #### Here you can see top sources for learning data science skills (2019):
-####![alt text](https://github.com/shaxzoddavronov/kaggle-competition/blob/main/images/prefered_sources.png "Logo Title Text 1")
+![alt text](https://github.com/shaxzoddavronov/kaggle-competition/blob/main/images/prefered_sources.png "Logo Title Text 1")
 #### You can see my results from the competitions by visiting my kaggle profile [here](https://www.kaggle.com/shaxzoddavronov)
