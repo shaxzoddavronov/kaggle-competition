@@ -20,8 +20,8 @@ st.subheader('Here is train set without any preporcessing')
 st.write('The goal is predicting passenger survived or not')
    
 st.write('Original data')
-data=pd.read_csv('train_titanic.csv')
-test=pd.read_csv('test_titanic.csv')
+data=pd.read_csv('titanic-surviver-classification/train_titanic.csv')
+test=pd.read_csv('titanic-surviver-classification/test_titanic.csv')
 gen_types=data['Sex'].unique()
 gen=st.sidebar.selectbox('Genders',gen_types)
 embark_types=data[data['Embarked'].notnull()].Embarked.unique()
@@ -41,9 +41,9 @@ def show_data(df,title):
     data=pd.read_csv(df)
     st.dataframe(data)
 
-show_data('future_engineering.csv','Sample data used feature engineering')
-show_data('sample_filtered_data.csv','Sample filtered data')
-show_data('prepared_data.csv','Sample prepared data')
+show_data('titanic-surviver-classification/future_engineering.csv','Sample data used feature engineering')
+show_data('titanic-surviver-classification/sample_filtered_data.csv','Sample filtered data')
+show_data('titanic-surviver-classification/prepared_data.csv','Sample prepared data')
 
 index=st.number_input('Insert index',0,len(data)-1)
 labels=pd.read_csv('labels.csv')
@@ -54,7 +54,7 @@ st.subheader('Line plot for filtered trainset')
 st.line_chart(data.Fare,use_container_width=True)
 st.line_chart(data[['Parch','SibSp']],use_container_width=True)
 
-original_data=pd.read_csv('train_titanic.csv')
+original_data=pd.read_csv('titanic-surviver-classification/train_titanic.csv')
 embark_types=['S','C','Q']
 ages=[]
 for embark in embark_types:
